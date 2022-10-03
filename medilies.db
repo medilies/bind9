@@ -1,0 +1,11 @@
+$TTL 3H
+$ORIGIN medilies.
+medilies.	IN SOA	dns.medilies. root.medilies. (
+					3	; serial
+					1D	; refresh
+					1H	; retry
+					1W	; expire
+					3H )	; minimum
+medilies.	NS	dns.medilies.
+dns	A	192.168.2.69
+glpi	A	192.168.2.69
